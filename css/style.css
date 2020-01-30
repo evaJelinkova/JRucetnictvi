@@ -44,13 +44,18 @@ h1 {
 
 
 .footer {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1em;
+  font-family: 'Comfortaa', cursive;
+  font-size: 1.2em;
   line-height: 1.5;
   background-color: #7E1F86;
   color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
 }
-
+.ver_line {
+  padding: 0 2em 0 2em;
+}
 a {
   text-decoration: none;
   color: #001427;
@@ -116,13 +121,13 @@ form {
   padding-top: 1em;
 }
 button[type=submit] {
-  background-color: #708D81;
+  background-color: #7E1F86;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 0.8em;
 }
 .col-25 {
