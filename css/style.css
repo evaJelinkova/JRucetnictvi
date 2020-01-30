@@ -1,3 +1,9 @@
+img {
+  border-radius: 50% 40% 50% 0;
+  width: 7em;
+  height: 7em;
+  border: 1em solid white;
+}
 .wrapper {
   height: 50em;
   display: flex;
@@ -8,32 +14,41 @@
   padding: 10px;
   flex: 1 100%;
 }
-
+.flex_h1 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1em;
+}
+h1 {
+  padding: 1em;
+  padding-right: 6em;
+  font-size: 2em;
+  float: left;
+  font-family: 'Comfortaa', cursive;
+  font-weight: lighter;
+  line-height: 2;
+  color: #001427;
+}
 .header {
-  border-top: 0.5em solid #708D81;
-  border-bottom: 0.5em solid #708D81;
+  border-top: 0.2em solid #B8B3E9;
+  border-bottom: 0.2em solid #B8B3E9;
   display: flex;
   flex-flow: row wrap;
-  justify-content:flex-end;
+  justify-content: flex-end;
   padding-top: 1em;
   font-size: 1.5em;
   color: #001427;
   padding-right: 1em;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
 
-}
-h1 {
-  width: 100%;
-  padding: 3em;
-  font-size: 2em;
-  float: left;
-  font-family: 'Roboto', sans-serif;
-  color: #001427;
-}
+
 .footer {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
   line-height: 1.5;
+  background-color: #7E1F86;
+  color: white;
 }
 
 a {
@@ -42,33 +57,41 @@ a {
 }
 .onpage {
   color: #001427;
-  text-shadow: 3px 3px 4px #708D81;
+  text-shadow: 3px 3px 4px #7E1F86;
+  font-weight: bold;
 }
 .navitem {
   padding: 0 1em 0 1em;
 }
 .main {
   text-align: justify;
-  background: rgb(210,224,191);
-  font-family: 'Libre Baskerville', serif;
-  /* padding-left: 1.5em;
-  padding-right: 1.5em; */
-  /* letter-spacing: 2px; */
-  line-height: 1.6;
-  color: #001427;
-  padding: 2.5em;
-  font-size: 1.2em;
+  background: #89A6FB;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.7;
+  color: white;
+  padding: 2em;
+  font-size: 1.3em;
   border: 2em solid white;
-}
+  font-weight: bold;
 
+}
+p {
+  text-indent: 40px;
+  padding-bottom: 1em;
+}
+.bold_words {
+  font-style: italic;
+}
 .aside-1 {
   font-size: 3em;
   align-content: center;
   text-align: center;
   color: #001427;
-  text-shadow: 2px 2px 4px #708D81;
-  font-family: 'Roboto', sans-serif;
-  padding-top: 3em;
+  text-shadow: 2px 2px 4px #90E0F3;
+  font-family: 'Comfortaa', cursive;
+  padding-top: 2.5em;
+  line-height: 2;
+  font-weight: bold;
 }
 
 .aside-2 {
@@ -76,9 +99,11 @@ a {
   align-content: center;
   text-align: center;
   color: #001427;
-  text-shadow: 2px 2px 4px #708D81;
-  font-family: 'Roboto', sans-serif;
-  padding-top: 3em;
+  text-shadow: 2px 2px 4px #90E0F3;
+  font-family: 'Comfortaa', cursive;
+  padding-top: 2.5em;
+  line-height: 2;
+  font-weight: bold;
 }
 
 form {
