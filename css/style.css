@@ -41,7 +41,12 @@ h1 {
   padding-right: 1em;
   font-family: 'Montserrat', sans-serif;
 }
-
+.service_par {
+  text-indent: 0px;
+}
+.service_h1 {
+  font-style: italic;
+}
 
 .footer {
   font-family: 'Comfortaa', cursive;
