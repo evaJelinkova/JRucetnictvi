@@ -8,19 +8,19 @@
   height: 6em;
 }
 
-img {
+/* img {
   border-radius: 50% 40% 50% 0;
   width: 5em;
   height: 5em;
   border: 1em solid white;
   padding-left: 1em;
-}
+} */
 
 .pictureClick {
   display: flex;
   justify-content: center;
   flex-flow: column;
-  padding-right: 1em;
+  padding-right: 2em;
 }
 
 .wrapper {
@@ -69,11 +69,8 @@ h1 {
 }
 
 .footer {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Roboto', sans-serif;
   font-size: 0.7em;
-  line-height: 1.5;
-  /* border-top: 0.2em solid #B8B3E9; */
-  color: white;
   display: flex;
   justify-content: space-evenly;
   padding: 0.5em;
@@ -105,14 +102,14 @@ a {
 }
 .main {
   text-align: justify;
-  background: #89A6FB;
+  background-color: #8EA8C3;
   font-family: 'Roboto', sans-serif;
   line-height: 1.7;
   color: white;
   padding: 2em;
   font-size: 1.3em;
   border: 2em solid white;
-
+  border-bottom: none;
 }
 p {
   text-indent: 40px;
@@ -126,7 +123,7 @@ p {
   align-content: center;
   text-align: center;
   color: #001427;
-  text-shadow: 2px 2px 4px #90E0F3;
+  text-shadow: 2px 2px 4px #CBBAED;
   font-family: 'Roboto', sans-serif;
   padding-top: 2.5em;
   line-height: 2;
@@ -138,7 +135,7 @@ p {
   align-content: center;
   text-align: center;
   color: #001427;
-  text-shadow: 2px 2px 4px #90E0F3;
+  text-shadow: 2px 2px 4px #CBBAED;
   font-family: 'Roboto', sans-serif;
   padding-top: 2.5em;
   line-height: 2;
@@ -155,7 +152,7 @@ form {
   padding-top: 1em;
 }
 button[type=submit] {
-  background-color: #7E1F86;
+  background-color: #23395B;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -241,7 +238,6 @@ body {
 
   .main {
     text-align: justify;
-    background: #89A6FB;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     color: white;
