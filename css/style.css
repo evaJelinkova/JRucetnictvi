@@ -23,7 +23,8 @@
 }
 
 .wrapper {
-  height: 5100%;
+  height: 100%;
+  max-width: 1500px;
   display: flex;
   flex-flow: row wrap;
   padding-left: 2em;
