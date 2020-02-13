@@ -307,4 +307,12 @@ body {
   #servicePoints {
     padding-left: 0em;
   }
+  .footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7em;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+  
+  }
 }
