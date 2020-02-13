@@ -8,13 +8,6 @@
   height: 6em;
 }
 
-/* img {
-  border-radius: 50% 40% 50% 0;
-  width: 5em;
-  height: 5em;
-  border: 1em solid white;
-  padding-left: 1em;
-} */
 
 .pictureClick {
   display: flex;
@@ -24,7 +17,7 @@
 }
 
 .wrapper {
-  height: 50em;
+  height: 5100%;
   display: flex;
   flex-flow: row wrap;
   padding-left: 2em;
@@ -195,12 +188,26 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
+  body {
+    padding: 0em;
+  }
+  
   .aside-1 {
     display: none;
   }
+  .aside-2 {
+    font-size: 2.5em;
+    align-content: center;
+    text-align: center;
+    color: #001427;
+    text-shadow: 2px 2px 4px #CBBAED;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 1em;
+    font-weight: bold;
+  }
   
   .wrapper {
-    height: 50em;
+    height: 100%;
     display: flex;
     flex-flow: row wrap;
   }
@@ -208,6 +215,26 @@ body {
   .wrapper > * {
     padding: 1px;
     flex: 1 100%;
+  }
+
+  .navitem {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    opacity: 1;
+  }
+  .pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 1em;
+    height: 3em;
+  }
+
+  .pictureClick {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding-right: 1em;
   }
 
   .flex_h1 {
@@ -218,36 +245,66 @@ body {
   }
 
   h1 {
-    padding: 0.2em;
-    padding-right: 6em;
-    font-size: 1.5em;
-    float: center;
-    font-family: 'Comfortaa', cursive;
-    font-weight: lighter;
-    line-height: 1.5;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
     color: #001427;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1em;
+    font-weight: 900;
+    line-height: 150%;
+
+  }
+
+  .ver_line {
+    padding.0.5;
+    color: white;
   }
   .header {
-    
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    padding-top: 1em;
-    font-size: 1em;
+    flex-flow: column;
+    padding: 2.5em 0em 2.5em 0em;
+    font-size: 0.8em;
     color: #001427;
-    padding-right: 1em;
-    font-family: 'Montserrat', sans-serif;
+    
+    font-family: 'Roboto', sans-serif;
+    
   }
 
   .main {
     text-align: justify;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
     color: white;
-    padding: 2em;
+    padding: 0.7em;
     font-size: 0.9em;
-    border: 2em solid white;
-    font-weight: bold;
+    border: none;
+    font-weight: 400;
   
+  }
+  form {
+    padding-top: 1em;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  .col-75 {
+    float: left;
+    width: 75%;
+    font-size: 1em;
+    width: 20em;
+  }
+  .aside-2 {
+    font-size: 1.5em;
+    align-content: center;
+    text-align: center;
+    color: #001427;
+    text-shadow: 2px 2px 4px #CBBAED;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0.5em;
+    line-height: 1;
+    font-weight: bold;
+  }
+  #servicePoints {
+    padding-left: 0em;
   }
 }
