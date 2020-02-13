@@ -66,8 +66,11 @@ h1 {
 }
 .service_h1 {
   font-style: italic;
+  color: black;
 }
-
+#servicePoints {
+  padding-left: 2em;
+}
 .footer {
   font-family: 'Roboto', sans-serif;
   font-size: 0.7em;
