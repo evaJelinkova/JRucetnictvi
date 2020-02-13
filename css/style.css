@@ -1,4 +1,10 @@
 
+.activeNumber {
+  display: none;
+}
+.nonactiveNumber{
+  display: inherit;
+}
 
 .pictures {
   display: flex;
@@ -191,7 +197,13 @@ body {
   body {
     padding: 0em;
   }
-  
+  .nonactiveNumber {
+    display: none;
+  }
+  .activeNumber {
+    display: inherit;
+  }
+
   .aside-1 {
     display: none;
   }
