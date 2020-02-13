@@ -300,7 +300,7 @@ body {
     color: #001427;
     text-shadow: 2px 2px 4px #CBBAED;
     font-family: 'Roboto', sans-serif;
-    padding-top: 0.5em;
+    padding: 1em;
     line-height: 1;
     font-weight: bold;
   }
