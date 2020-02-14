@@ -24,7 +24,6 @@
 
 .wrapper {
   height: 100%;
-  max-width: 1500px;
   display: flex;
   flex-flow: row wrap;
   padding-left: 2em;
@@ -50,8 +49,6 @@ h1 {
   text-transform: uppercase;
 }
 .header {
-  /* border-top: 0.1em solid #B8B3E9; */
-  /* border-bottom: 0.em solid #B8B3E9; */
   display: flex;
   flex-flow: row;
   justify-content: flex-end;
@@ -148,7 +145,10 @@ p {
 form {
   padding-top: 1em;
   line-height: 1.5;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 .odeslat {
   float: left;
@@ -164,14 +164,17 @@ button[type=submit] {
   font-family: 'Roboto', sans-serif;
   font-size: 0.8em;
 }
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .col-25 {
-  float: left;
   width: 25%;
   font-size: 1em;
 }
 
 .col-75 {
-  float: left;
   width: 75%;
   font-size: 1em;
   width: 28em;
@@ -300,11 +303,12 @@ body {
     line-height: 1.5;
     box-sizing: border-box;
   }
+  
   .col-75 {
     float: left;
-    width: 75%;
+   
     font-size: 1em;
-    width: 20em;
+    width: 15em;
   }
   .aside-2 {
     font-size: 1.5em;
