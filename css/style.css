@@ -1,4 +1,19 @@
 
+.logo-hore {
+  height: 300%;
+  width:  20%;
+  float: right;
+  margin-right: 15%;
+}
+.logo-dole {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50%;
+  width:  40%;
+
+}
+
 .activeNumber {
   display: none;
 }
